@@ -1,0 +1,26 @@
+html {
+  height: 100vh;
+}
+body {
+  background-image: linear-gradient(45deg, red, rgb(255,200,255), blue);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+h1 {
+  background-image: linear-gradient(blue, rgb(255,90,255), red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 1px;
+}
+#game {
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(to right, rgb(55, 55, 55), black, rgb(55, 55, 55));
+  cursor: pointer;
+  min-width: 500px;
+  min-height: 500px;
+  border: 1px solid red;
+}
